@@ -1,0 +1,47 @@
+{
+    "Python":[
+        {
+            "imgSrc": "https://placehold.jp/256x256.png",
+           "title": "KEIO-GPT",
+           "text": "OpenAIのAPIを利用して大学の履修要項などのPDFをLangChainを用いて学習させたLINEBot",
+           "link": "https://www.canva.com/design/DAFiiKu7A2Y/iH3txpse-GxY9B5PpoK1pA/view?utm_content=DAFiiKu7A2Y&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+        }
+    ],
+    "React": [
+        {
+            "imgSrc": "https://placehold.jp/256x256.png",
+            "title": "落とし物の部屋",
+            "text": "ハッカソンで作成したもの 落とし物をアキネーター形式で探せる",
+            "link": "https://github.com/KDDIhacks/KDDIHacks2023-TeamH"
+        },
+        {
+            "imgSrc": "https://placehold.jp/256x256.png",
+            "title": "Reactプロジェクト2",
+            "text": "Reactプロジェクトの詳細2"
+        }
+    ],
+    "Flutter":[
+        {
+            "imgSrc": "https://placehold.jp/256x256.png",
+            "title": "Flutterプロジェクト1",
+            "text": "Flutterプロジェクトの詳細1"
+        },
+        {
+            "imgSrc": "https://placehold.jp/256x256.png",
+            "title": "Flutterプロジェクト2",
+            "text": "Flutterプロジェクトの詳細2"
+        }
+    ],
+    "Java":[
+        {
+            "imgSrc": "https://placehold.jp/256x256.png",
+            "title": "Javaプロジェクト1",
+            "text": "Javaプロジェクトの詳細1"
+        },
+        {
+            "imgSrc": "https://placehold.jp/256x256.png",
+            "title": "Javaプロジェクト2",
+            "text": "Javaプロジェクトの詳細2"
+        }
+    ]
+}
