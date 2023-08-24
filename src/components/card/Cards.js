@@ -1,6 +1,5 @@
-import React from 'react'
-import {Card as BootstrapCard} from 'react-bootstrap'
-import Button from 'react-bootstrap/Button';
+import React ,{ useState } from 'react'
+import {Card as BootstrapCard,Modal,Button} from 'react-bootstrap'
 import { Link } from 'react-router-dom';
 function Cards(props) {
     const {
@@ -11,8 +10,9 @@ function Cards(props) {
         link,
         ...otherProps
     } = props; 
+    const [showModal,setShowModal] = useState(false);
   return (
-    <Link to={link} style={{ textDecoration: 'none', color: 'inherit' }}>
+    <>
     <BootstrapCard {...otherProps}>
       {
         imgSrc && (
@@ -26,8 +26,6 @@ function Cards(props) {
             <BootstrapCard.Title>
               {title}
             </BootstrapCard.Title>
-  
-  
           )
         }
         {
@@ -38,10 +36,28 @@ function Cards(props) {
           )
         }
         {children}
+        <Button onClick={() => setShowModal(true)}>詳細</Button>
       </BootstrapCard.Body>
     </BootstrapCard>
-    </Link>
     
+    <Modal show={showModal} onHide={() => setShowModal(false)}>
+      <Modal.Header closeButton>
+        <Modal.Title>{title}</Modal.Title>
+      </Modal.Header>
+      <Modal.Body>
+        <img src={imgSrc} alt={title} style={{width:'100%'}}/>
+        {text}
+      </Modal.Body>
+      <Modal.Footer>
+      <a href={link} target="_blank" rel="noopener noreferrer">
+          <Button>リンク</Button>
+        </a>
+        <Button variant="secondary" onClick={() => setShowModal(false)}>
+          閉じる
+        </Button>
+      </Modal.Footer>
+    </Modal>
+    </>
   )
 }
 

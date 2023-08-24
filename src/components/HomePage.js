@@ -5,6 +5,8 @@ function HomePage() {
     <div>
         <div>
             <h1>ポートフォリオ</h1>
+            <p>ポートフォリオサイトです。</p>
+            
         </div>
     </div>
   )

@@ -1,0 +1,29 @@
+.history {
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+}
+
+.education, .work {
+    list-style-type: none;
+    padding: 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.education h2, .work h2 {
+    background-color: #f7f7f7;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.education li, .work li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.education li:last-child, .work li:last-child {
+    border-bottom: none;
+}
