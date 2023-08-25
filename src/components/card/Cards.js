@@ -29,13 +29,6 @@ function Cards(props) {
             </BootstrapCard.Title>
           )
         }
-        {
-          text && (
-            <BootstrapCard.Text>
-              {text}
-            </BootstrapCard.Text>
-          )
-        }
         {children}
         <Button onClick={() => setShowModal(true)}>詳細</Button>
       </BootstrapCard.Body>
