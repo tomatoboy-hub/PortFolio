@@ -1,9 +1,8 @@
 .history {
-    font-family: 'Roboto', sans-serif;
-    padding: 20px;
+    padding-top: 100px;
 }
 
-.education, .work {
+.education, .work , .skill {
     list-style-type: none;
     padding: 0;
     border: 1px solid #ddd;
@@ -11,7 +10,7 @@
     margin-bottom: 20px;
 }
 
-.education h2, .work h2 {
+.education h2, .work h2,.skill h2{
     background-color: #f7f7f7;
     padding: 10px;
     border-bottom: 1px solid #ddd;
@@ -19,11 +18,11 @@
     margin: 0;
 }
 
-.education li, .work li {
+.education li, .work li , .skill li{
     padding: 10px;
     border-bottom: 1px solid #ddd;
 }
 
-.education li:last-child, .work li:last-child {
+.education li:last-child, .work li:last-child , .skill li:last-child{
     border-bottom: none;
 }

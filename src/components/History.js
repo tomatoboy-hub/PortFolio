@@ -17,6 +17,13 @@ function History() {
             <li>2023年 6月 株式会社STANDARD 入社</li>
             <li>2023年 7月 東進衛生予備校 退社</li>
         </ul>
+        <ul className="skill">
+          <h2>スキル</h2>
+          <li>2019年 6月 英検準一級</li>
+          <li>2022年 6月 統計検定2級</li>
+          <li>2022年 6月 AWS SAA</li>
+          <li>2023年 6月 応用情報技術者試験</li>
+        </ul>
     </div>
   )
 }
