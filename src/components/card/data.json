@@ -5,6 +5,12 @@
            "title": "KEIO-GPT",
            "text": "OpenAIのAPIを利用して大学の履修要項などのPDFをLangChainを用いて学習させたLINEBot",
            "link": "https://www.canva.com/design/DAFiiKu7A2Y/iH3txpse-GxY9B5PpoK1pA/view?utm_content=DAFiiKu7A2Y&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+        },
+        {
+            "imgSrc": "https://placehold.jp/256x256.png",
+           "title": "Notion Summarizer",
+           "text": "Send to Notion で保存した記事を要約してくれる",
+           "link": "https://www.notion.so/Notion-Summarizer-README-eb1b3482bfa549fb81c39b0ba5b1f197?pvs=4"
         }
     ],
     "React": [
@@ -16,15 +22,17 @@
         },
         {
             "imgSrc": "https://placehold.jp/256x256.png",
-            "title": "Reactプロジェクト2",
-            "text": "Reactプロジェクトの詳細2"
+            "title": "ポートフォリオ",
+            "text": "自分のポートフォリオ",
+            "link":"https://port-folio-three-delta.vercel.app/"
         }
     ],
     "Flutter":[
         {
             "imgSrc": "https://placehold.jp/256x256.png",
-            "title": "Flutterプロジェクト1",
-            "text": "Flutterプロジェクトの詳細1"
+            "title": "Latify",
+            "text": "通知を後で見れるようにするリマインダー兼管理アプリ",
+            "link":"https://www.notion.so/Latify-README-a4d265fa99004e6a8d02ff4434c21bb7?pvs=4"
         },
         {
             "imgSrc": "https://placehold.jp/256x256.png",
