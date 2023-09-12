@@ -2,14 +2,7 @@ import React ,{ useState } from 'react'
 import {Card as BootstrapCard,Modal,Button} from 'react-bootstrap'
 
 function Cards(props) {
-    const {
-        imgSrc,
-        title,
-        text,
-        children,
-        link,
-        ...otherProps
-    } = props; 
+  const {imgSrc,title,text,link,children,...otherProps} = props;
     const [showModal,setShowModal] = useState(false);
   return (
     

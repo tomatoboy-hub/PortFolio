@@ -23,6 +23,7 @@ function History() {
           <li>2022年 6月 統計検定2級</li>
           <li>2022年 6月 AWS SAA</li>
           <li>2023年 6月 応用情報技術者試験</li>
+          <li>2023年 9月 統計検定準1級</li>
         </ul>
     </div>
   )

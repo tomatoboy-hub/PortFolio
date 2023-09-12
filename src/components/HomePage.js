@@ -1,6 +1,6 @@
 import React from 'react'
 import { useLottie } from 'lottie-react';
-import animationData from './animation_llqwzbts.json';
+import animationData from './Lotties/animation_llqwzbts.json';
 const style = {
   height: "80vh",
   width: "100vw",

@@ -1,0 +1,23 @@
+/* InternDetail.module.css */
+.card {
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .cardTitle {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .cardDetail {
+    margin-bottom: 5px;
+  }
+  

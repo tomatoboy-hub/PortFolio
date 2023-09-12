@@ -5,7 +5,7 @@ function Header() {
   return (
     <header>
         <div className='logo'>
-            <h3>ポートフォリオ</h3>
+            <h3>Port Forio</h3>
         </div>
         <nav>
             <ul>
@@ -17,6 +17,9 @@ function Header() {
                 </li>
                 <li>
                     <Link to="project">Project</Link>
+                </li>
+                <li>
+                    <Link to="intern">Intern</Link>
                 </li>
             </ul>
         </nav>
