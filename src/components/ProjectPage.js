@@ -12,6 +12,7 @@ function ProjectPage() {
                 <Tab>React</Tab>
                 <Tab>Flutter</Tab>
                 <Tab>Java</Tab>
+                <Tab>Unity</Tab>
             </TabList>
             <TabPanel>
                 <h2>Python</h2>
@@ -32,6 +33,11 @@ function ProjectPage() {
                 <h2>Java</h2>
                 <p>Javaのプロジェクト</p>
                 <CardPage projects={projectData.Java} />
+            </TabPanel>
+            <TabPanel>
+                <h2>Unity</h2>
+                <p>Unityのプロジェクト</p>
+                <CardPage projects={projectData.Unity} />
             </TabPanel>
         </Tabs>
     </div>
