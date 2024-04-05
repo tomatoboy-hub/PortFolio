@@ -1,7 +1,7 @@
 import React from 'react'
 import History from './History'
 import './styles/AboutPage.css'
-import profileImage from './img/face.jpg';
+import profileImage from './img/face.JPG';
 function AboutPage() {
   return (
     <div className="about">
