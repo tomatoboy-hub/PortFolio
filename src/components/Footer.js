@@ -1,5 +1,6 @@
 import React from 'react';
-import { FiTwitter, FiInstagram, FiFacebook } from 'react-icons/fi';
+import { FiTwitter, FiInstagram } from 'react-icons/fi';
+import { SiWantedly } from 'react-icons/si';
 
 const socialLinks = [
   {
@@ -13,9 +14,9 @@ const socialLinks = [
     label: 'Instagram',
   },
   {
-    href: 'https://www.facebook.com/profile.php?id=100091614417852',
-    icon: FiFacebook,
-    label: 'Facebook',
+    href: 'https://www.wantedly.com/id/hayata_shimizu',
+    icon: SiWantedly,
+    label: 'Wantedly',
   },
 ];
 
@@ -26,7 +27,7 @@ function Footer() {
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
           <div>
             <p className="text-white font-semibold">清水 駿太</p>
-            <p className="text-gray-500 text-xs mt-0.5">慶應義塾大学 理工学部 情報工学科</p>
+            <p className="text-gray-500 text-xs mt-0.5">東京科学大学 情報理工学院 修士1年 / 産総研 AI研究センター</p>
           </div>
 
           <div className="flex items-center gap-3">

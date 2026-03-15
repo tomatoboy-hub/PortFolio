@@ -28,11 +28,13 @@ function SkillBar({ name, level }) {
 }
 
 const awards = [
+  { year: '2025年', title: 'SIGNATE Axell AI Contest 2025\n銅メダル（物体検出）' },
+  { year: '2025年 5月', title: '人工知能学会全国大会\n論文2本採択' },
   { year: '2025年 3月', title: 'ハウテレビジョンハッカソン 優勝' },
-  { year: '2025年 5月', title: '人工知能学会全国大会 論文2本採択' },
-  { year: '2024年 2月', title: '技育キャンプ vol.14 努力賞' },
   { year: '2024年 2月', title: '技育CAMP vol.7 メディアドゥ賞' },
+  { year: '2024年 2月', title: '技育キャンプ vol.14 努力賞' },
   { year: '2023年 9月', title: '技育キャンプアドバンス vol.3\nサイバーエージェント賞' },
+  { year: '2023年', title: 'チャットプラス主催\nチャットボットコンテスト 特別賞' },
 ];
 
 function AboutPage() {
@@ -139,22 +141,22 @@ function AboutPage() {
           <div className="bg-slate-800/50 rounded-xl border border-slate-700/50 p-6 mb-6">
             <h3 className="text-lg font-semibold text-white mb-3">自己紹介</h3>
             <p className="text-gray-300 leading-relaxed text-sm">
-              慶應義塾大学 理工学部 情報工学科を卒業後、東京科学大学（旧東京工業大学）情報理工学院
-              知能情報コースに進学し、AI・機械学習の研究を行っています。
-              現在は産業技術総合研究所（AIST）の AI 研究センターにてテクニカルスタッフとして、
-              内閣府SIPプロジェクトに従事し、データ分析・施策提案・論文執筆にも取り組んでいます。
+              慶應義塾大学 理工学部 情報工学科を経て、東京科学大学（旧東京工業大学）大学院
+              知能情報コースへ進学。現在は産業技術総合研究所（AIST）AI 研究センターにて
+              テクニカルスタッフを兼務し、因果推論・機械学習を軸とした研究に取り組んでいます。
+              2025年 人工知能学会全国大会に論文2本が採択（うち1本は主著）。
             </p>
             <p className="text-gray-300 leading-relaxed text-sm mt-3">
-              学生時代から LangChain・llama-index を活用した LLM アプリ開発、
-              React / Next.js・Flutter によるフロントエンド・モバイル開発、Unity を使った AR アプリ制作まで
-              幅広い技術領域に取り組んできました。株式会社 Nospare では事業責任者（PdM）として
-              Amazon 広告運用の BPR・MMM による予算配分自動化を担い、
-              担当商品の売上を約 2.5 倍に向上させる成果を達成しました。
+              インターンでは DeNA・楽天・Nospare など多様な企業で経験を積みました。
+              楽天では英語オンリーのグローバルチームで AI エージェント開発に携わり、
+              Nospare では PdM として Amazon 広告運用の自動化を牽引し担当商品売上を約 2.5 倍に伸長。
+              技術だけでなく、ビジネス課題を起点に考える視点を大切にしています。
             </p>
             <p className="text-gray-300 leading-relaxed text-sm mt-3">
-              複数のハッカソンで入賞（ハウテレビジョン優勝・技育CAMP 複数受賞）し、
-              2025 年人工知能学会全国大会に論文 2 本が採択されています。
-              TOEIC 925 点・データベーススペシャリストなどの資格も保有しています。
+              開発面では LLM・画像認識から Flutter・Next.js・Unity（AR）まで幅広く経験があり、
+              ハウテレビジョンハッカソン優勝をはじめ複数の受賞実績があります。
+              TOEIC 925 点・データベーススペシャリスト・統計検定準1級なども保有しており、
+              研究・開発・英語の三軸で高い水準を目指しています。
             </p>
           </div>
 

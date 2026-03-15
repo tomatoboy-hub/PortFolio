@@ -29,9 +29,10 @@ function HomePage() {
           </div>
 
           <p className="text-gray-400 text-base sm:text-lg leading-relaxed max-w-md">
-            AI・機械学習を専攻する修士学生。LLMアプリ・Web・モバイル・AR まで
-            幅広くプロダクト開発に携わり、複数のハッカソンで入賞。
-            産総研 AI 研究センターにて内閣府 SIP プロジェクトにも従事中。
+            AI 研究とプロダクト開発、ビジネスの三軸を横断するエンジニア。
+            東京科学大学 修士課程・産総研 AI 研究センターで因果推論を研究しながら、
+            DeNA・楽天など国内トップ企業のインターンで実装力を磨いてきた。
+            人工知能学会 論文2本採択、ハッカソン複数優勝・入賞の実績あり。
           </p>
 
           <div className="flex flex-wrap gap-3">
@@ -70,9 +71,9 @@ function HomePage() {
             {[
               { label: 'TOEIC 925', icon: '📝' },
               { label: 'DBスペシャリスト', icon: '🗄️' },
-              { label: 'AWS SAA', icon: '☁️' },
               { label: 'ハウテレビジョン優勝', icon: '🏆' },
               { label: '人工知能学会 論文採択', icon: '📄' },
+              { label: 'SIGNATE 銅メダル', icon: '🥉' },
               { label: 'AtCoder 緑', icon: '💻' },
             ].map(({ label, icon }) => (
               <div key={label} className="flex items-center gap-1.5 text-xs text-gray-500">

@@ -17,8 +17,10 @@ const work = [
   { year: '2024年 6月', event: '鶴見有職株式会社 退社' },
   { year: '2024年 9月', event: '株式会社Nospare 退社' },
   { year: '2024年 11月', event: '産業技術総合研究所 AI研究センター テクニカルスタッフ 入所', isCurrent: true },
-  { year: '2025年 8月', event: '株式会社DeNA エンジニアインターン 入社' },
-  { year: '2025年 9月', event: '株式会社DeNA 退社' },
+  { year: '2025年 8月', event: '株式会社ディー・エヌ・エー エンジニアインターン 入社' },
+  { year: '2025年 9月', event: '株式会社ディー・エヌ・エー 退社' },
+  { year: '2025年 10月', event: '楽天株式会社 AIエンジニアインターン 入社' },
+  { year: '2025年 10月', event: '楽天株式会社 退社', isCurrent: true },
 ];
 
 const skills = [
@@ -34,6 +36,7 @@ const skills = [
   { year: '2024年 12月', event: 'データベーススペシャリスト 合格' },
   { year: '2025年 3月', event: 'ハウテレビジョンハッカソン 優勝', isCurrent: true },
   { year: '2025年 5月', event: '人工知能学会全国大会 論文2本 採択', isCurrent: true },
+  { year: '2025年', event: 'SIGNATE Axell AI Contest 2025 銅メダル', isCurrent: true },
 ];
 
 function TimelineItem({ year, event, isLast, isCurrent }) {
