@@ -1,0 +1,102 @@
+{
+  "Python": [
+    {
+      "imgSrc": null,
+      "icon": "🤖",
+      "color": "green",
+      "title": "KEIO-GPT",
+      "text": "OpenAI API と LangChain を活用し、慶應義塾大学の履修要項 PDF を学習させた LINE チャットボット。学生が履修登録の疑問を自然言語で質問できる。チャットプラス主催チャットボットコンテスト 特別賞受賞。",
+      "link": "https://www.canva.com/design/DAFiiKu7A2Y/iH3txpse-GxY9B5PpoK1pA/view",
+      "award": "チャットプラス主催コンテスト 特別賞"
+    },
+    {
+      "imgSrc": null,
+      "icon": "📋",
+      "color": "orange",
+      "title": "Notion Summarizer",
+      "text": "「Send to Notion」で保存した Web 記事を自動要約する Python スクリプト。OpenAI API を活用し、読みたい記事のキャッチアップ効率を大幅に改善。",
+      "link": "https://www.notion.so/Notion-Summarizer-README-eb1b3482bfa549fb81c39b0ba5b1f197?pvs=4",
+      "award": null
+    }
+  ],
+  "Next.js / React": [
+    {
+      "imgSrc": null,
+      "icon": "🏆",
+      "color": "cyan",
+      "title": "コンペプラットフォーム",
+      "text": "ハウテレビジョン主催ハッカソン優勝作品。Next.js で構築したコンペティションプラットフォーム。AI によるコード自動評価機能を搭載。チームで要件定義・設計・実装・プレゼンまで一貫して担当。",
+      "link": "https://qr.paps.jp/b4qxp",
+      "award": "ハウテレビジョンハッカソン 優勝"
+    },
+    {
+      "imgSrc": null,
+      "icon": "🔍",
+      "color": "purple",
+      "title": "落とし物の部屋",
+      "text": "KDDI ハッカソン 2023 で開発。落とし物をアキネーター形式の質問フローで絞り込んで探せる Web アプリ。React で実装。",
+      "link": "https://github.com/KDDIhacks/KDDIHacks2023-TeamH",
+      "award": null
+    },
+    {
+      "imgSrc": null,
+      "icon": "💼",
+      "color": "teal",
+      "title": "ポートフォリオ",
+      "text": "本サイト。React + Tailwind CSS で構築したポートフォリオサイト。Vercel にデプロイ済み。",
+      "link": "https://port-folio-three-delta.vercel.app/",
+      "award": null
+    }
+  ],
+  "Flutter": [
+    {
+      "imgSrc": null,
+      "icon": "📚",
+      "color": "blue",
+      "title": "Stack Tacular（積読管理アプリ）",
+      "text": "Flutter で開発した積読本の管理アプリ。UI/UX 設計・状態管理・ローカルストレージ管理を実装。技育キャンプ vol.14 で努力賞を受賞。",
+      "link": "https://x.gd/hlRKF",
+      "award": "技育キャンプ vol.14 努力賞"
+    },
+    {
+      "imgSrc": null,
+      "icon": "🔔",
+      "color": "pink",
+      "title": "Latify（通知管理アプリ）",
+      "text": "スマートフォンの通知を後でまとめて確認できるリマインダー兼管理アプリ。Flutter で iOS / Android 両対応。技育アドバンス vol.3 サイバーエージェント賞・技育CAMP vol.7 メディアドゥ賞をダブル受賞。",
+      "link": "https://x.gd/BiapG",
+      "award": "技育アドバンス vol.3 サイバーエージェント賞 / 技育CAMP vol.7 メディアドゥ賞"
+    }
+  ],
+  "Unity": [
+    {
+      "imgSrc": null,
+      "icon": "🎮",
+      "color": "emerald",
+      "title": "LifeARound",
+      "text": "AR 技術を使って現実空間で遊べる人生ゲーム。Unity + AR Foundation で開発。スマートフォンをかざして駒を動かせるリアル×バーチャル体験を実現。",
+      "link": "https://www.canva.com/design/DAFwwHX3lWM/rgIl1C6a3uuBcf5UGoVUhg/view",
+      "award": null
+    }
+  ],
+  "研究": [
+    {
+      "imgSrc": null,
+      "icon": "🔬",
+      "color": "violet",
+      "title": "画像データの視覚情報に基づく因果推論のためのテキスト因果モデルの拡張と適用",
+      "text": "画像の明るさ・色味などの視覚的特徴が購買行動に与える因果効果を推定するモデルを構築。テキスト因果推論モデルを画像に拡張し、ViT ベースの視覚表現・再構成損失・データ拡張を導入。T-boost / I-adjust モデルの設計・半合成データ検証まで一貫して担当。主著。",
+      "link": "https://confit.atlas.jp/guide/event/jsai2025/subject/2O1-GS-10-03/advanced",
+      "award": "第39回 人工知能学会全国大会（JSAI2025）口頭発表 採択"
+    },
+    {
+      "imgSrc": null,
+      "icon": "🧠",
+      "color": "indigo",
+      "title": "未経験者を対象にするための「AI人材タイプ診断」における代替設問の効果検証",
+      "text": "AI業務未経験者にも対応できる「AI人材タイプ診断」の代替設問の有効性を、約5,000名の回答データで統計的に検証。ベイジアンネットワークおよびPLSA（確率的潜在意味解析）を用いて設問間の潜在的関係を分析。分析・論文執筆を主担当（共著）。",
+      "link": "https://confit.atlas.jp/guide/event/jsai2025/subject/2H5-GS-11-05/advanced",
+      "award": "第39回 人工知能学会全国大会（JSAI2025）口頭発表 採択"
+    }
+  ]
+}
