@@ -1,5 +1,7 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 import ProjectCard from './ProjectCard';
+import { staggerContainer, fadeInUp } from './PageTransition';
 
 function ProjectGrid({ projects }) {
   if (!projects || projects.length === 0) {
@@ -11,11 +13,18 @@ function ProjectGrid({ projects }) {
   }
 
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+    <motion.div
+      className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5"
+      variants={staggerContainer}
+      initial="hidden"
+      animate="visible"
+    >
       {projects.map((project, i) => (
-        <ProjectCard key={i} {...project} />
+        <motion.div key={i} variants={fadeInUp} custom={i}>
+          <ProjectCard {...project} />
+        </motion.div>
       ))}
-    </div>
+    </motion.div>
   );
 }
 
